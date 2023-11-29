@@ -6,4 +6,11 @@ jobs:
     runs-on: Ubuntu-latest
     steps:
       - run: echo "Premier job"
-      - run: echo "Fin"
+      - run: echo "Fin premier job"
+  Second-Job:
+    name: Second Job
+    runs-on: Ubuntu-latest
+    steps:
+      - run: echo "Second job"
+      - run: echo "Fin second job"
+
